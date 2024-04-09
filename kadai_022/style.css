@@ -1,0 +1,82 @@
+/* tags */
+body, h1, p {
+  margin: 0px;
+}
+
+a, p {
+  font-size: 20px;
+}
+
+/* tag */
+header {
+  margin-bottom: 0px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+main {
+  padding: 10px;
+}
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: rgb(193, 234, 251);
+}
+a:hover {
+  color: rgb(245, 178, 168);
+}
+
+h2 {
+  font-size: 25px;
+  border-bottom: 3px dotted rgb(236, 122, 122);
+}
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+
+
+/* class */
+.txt-clr-white {
+  color: white;
+}
+
+.contents {
+  border: 3px solid rgb(238, 204, 204);
+  flex-basis: 25%;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 20px 0px;
+}
+/* : の前後に空白はエラーの元*/
+.contents p:nth-of-type(2):first-letter {
+  font-weight: bold;
+  color: rgb(97, 206, 249);
+}
+
+
+/* id */
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* media */
+@media screen and (max-width:768px/*768px以下*/) {
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 25px;
+  }
+  #parent {
+    display: flex;
+    flex-direction: column;
+  }
+}
