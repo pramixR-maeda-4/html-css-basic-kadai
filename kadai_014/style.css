@@ -1,0 +1,40 @@
+/* tag */
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 48px;
+}
+
+/* class */
+.major-head {
+  text-shadow: rgba(80, 80, 80, 0.5) 2px 4px;
+  border-bottom: 2px solid black;
+}
+.major-main {
+  border-top: 2px solid black;
+}
+
+.color-skyblue {
+  color: skyblue;
+}
+.color-pink {
+  color: rgb(255, 192, 203);
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+.txt-underline {
+  text-decoration: underline;
+}
+
+
